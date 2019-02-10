@@ -31,8 +31,8 @@ namespace UsingAndDispose
               finally {
                  if (sReader != null) sReader.Dispose();     
               }
-   }
         }
     }
 }
+
     
