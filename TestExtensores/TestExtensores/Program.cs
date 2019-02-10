@@ -10,7 +10,7 @@ namespace TestExtensores
     {
         static void Main(string[] args)
         {
-            Persona persona1 = new Persona();
+            Person persona1 = new Person();
             persona1.Name= "";
             System.Diagnostics.Debug.Write(persona1.HasName()+"\n");
         }
